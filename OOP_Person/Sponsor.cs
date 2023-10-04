@@ -35,5 +35,10 @@ namespace OOP_Person
         {
             return $"{base.Introduce()} who represents {this.company} and hired {this.hiredStudents} students so far.";
         }
+
+        public void Hire()
+        {
+            this.hiredStudents++;
+        }
     }
 }

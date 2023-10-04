@@ -28,9 +28,9 @@ namespace OOP_Person
             students.Add(s);
         }
 
-        public void AddMentor(Student s)
+        public void AddMentor(Mentor m)
         {
-            students.Add(s);
+            mentors.Add(m);
         }
 
         public string Info()

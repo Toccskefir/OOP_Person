@@ -39,11 +39,11 @@ namespace OOP_Person
         {
             if (this.gender)
             {
-                return $"Hi, I'm {this.name}, a {this.age} year old female.";
+                return $"Hi, I'm {this.name}, a {this.age} year old male";
             }
             else
             {
-                return $"Hi, I'm {this.name}, a {this.age} year old male.";
+                return $"Hi, I'm {this.name}, a {this.age} year old female";
             }
         }
     }
